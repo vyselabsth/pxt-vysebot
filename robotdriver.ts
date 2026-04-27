@@ -118,6 +118,8 @@ namespace robot {
             if (RobotDriver._instance === this) return // already started
             if (RobotDriver._instance)
                 throw "Another robot has already been started."
+            if (control.hardwareVersion() !== "2")
+                throw "Vyse S1 requires a micro:bit V2."
             RobotDriver._instance = this
 
             this.currentThrottle = [0, 0]

@@ -1,7 +1,7 @@
 # Vyse S1 Robot for MakeCode
 
 This extension contains **blocks for the Vyse S1 micro:bit robot** and **a web simulator**.
-This library is compatible with micro:bit V2 and V1. The code space in V1 is limited and you may need to remove some features to fit your program.
+This library requires a **micro:bit V2** (V2 or V2.2). The micro:bit V1 is not supported.
 
 > The library is still in beta and is subject to changes.
 
